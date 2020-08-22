@@ -14,14 +14,14 @@ def QuickSort(arr,low,high):
     if low < high:
         
 
-    # pi is partitioning index, arr[p] is now
-    # at right place
-    pi = partition(arr,low,high)
+        # pi is partitioning index, arr[p] is now
+        # at right place
+        pi = partition(arr,low,high)
 
-    # Separately sort elements before
-    # partition and after partition
-    QuickSort(arr, low, pi-1)
-    QuickSort(arr, pi+1, high)
+        # Separately sort elements before
+        # partition and after partition
+        QuickSort(arr, low, pi-1)
+        QuickSort(arr, pi+1, high)
     
  if __name__ == "__main__":
     for i in range(int(input())):
