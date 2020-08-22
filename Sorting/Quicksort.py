@@ -27,7 +27,7 @@ def QuickSort(arr,low,high):
     for i in range(int(input())):
         n = int(input())
         arr = list(map(int,input().split()))
-        quicksort(arr,0,n-1)
+        Quicksort(arr,0,n-1)
         for i in range(n):
             print(arr[i],end = " ")
         print()
