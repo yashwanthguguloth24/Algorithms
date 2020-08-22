@@ -37,7 +37,7 @@ def mergeSort (arr, l, r):
         merge (arr, l, m, r)
 				
 if __name__ == "__main__":
-	for i in range(int(input())):
+    for i in range(int(input())):
         n = int(input())
         arr = list(map(int,input().split()))
         mergeSort(arr,0,n-1)
