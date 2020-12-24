@@ -32,7 +32,7 @@ Testcase 1 : There are two pairs of elements in the array whose sum is positive.
 {3, -2} = 1
 {3, 1} = 4
 '''
-
+from bisect import bisect_left as lower_bound 
 
 def findNumOfPair(array, n): 
     array = sorted(array)
